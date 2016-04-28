@@ -1,0 +1,7 @@
+app-doc/doxygen qt4
+app-misc/strigi qt4
+media-gfx/graphviz qt4
+media-libs/avidemux-plugins qt4
+media-video/avidemux qt4
+net-print/hplip qt4
+sci-visualization/gnuplot qt4

@@ -1,0 +1,19 @@
+#libreoffice fails to link
+=media-libs/libgltf-0.0.2
+
+#doesn't work ?!
+#=net-misc/dropbox-3.6.8
+
+#causes compile error w/ cups-filter
+~app-text/poppler-0.34.0
+
+#mask for the moment, so it doesn't get pulled in
+#dev-lang/ruby:2.1
+
+#keepass fails to build
+>=dev-lang/mono-4.0.0
+
+=net-p2p/armory-9999
+
+#temporary
+>=app-emulation/wine-1.9

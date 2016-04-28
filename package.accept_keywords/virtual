@@ -1,0 +1,10 @@
+virtual/ffmpeg ~amd64
+virtual/glu ~amd64
+virtual/libudev ~amd64
+virtual/libgudev ~amd64
+virtual/linux-sources ~amd64
+virtual/udev ~amd64
+virtual/opencl ~amd64
+virtual/fam ~amd64
+virtual/pam ~amd64
+virtual/libintl ~amd64

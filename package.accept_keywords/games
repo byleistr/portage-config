@@ -1,0 +1,11 @@
+games-engines/scummvm ~amd64
+games-engines/scummvm-tools ~amd64
+games-strategy/wesnoth ~amd64
+
+games-util/steam-client-meta ~amd64
+games-util/steam-games-meta ~amd64
+games-util/steam-launcher ~amd64
+games-util/steam-meta ~amd64
+media-libs/libsdl ~amd64
+media-libs/libsdl2 ~amd64
+app-emulation/steam-runtime-bin ~amd64

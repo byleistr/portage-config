@@ -1,0 +1,3 @@
+app-emulation/qemu usbredir
+app-emulation/virtualbox qt4
+app-text/aspell linguas_de

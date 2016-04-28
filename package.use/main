@@ -1,0 +1,168 @@
+app-admin/gkrellm hddtemp
+app-arch/p7zip rar
+#phonon fix, to prevent qt-phonon
+app-cdr/acetoneiso kde
+app-crypt/gcr vala
+app-crypt/heimdal -ssl -threads
+app-crypt/johntheripper custom-cflags
+app-doc/doxygen dot latex doc
+app-editors/emacs xft
+app-emulation/libvirt python virt-network numa
+app-emulation/libvirt-glib python
+app-emulation/vmware-tools vmware_guest_linux vmware_guest_windows
+app-emulation/wine -vaapi -gstreamer
+app-laptop/tp_smapi hdaps
+app-misc/strigi clucene
+app-mobilephone/gammu python
+app-mobilephone/obexd nokia
+app-office/libreoffice gtk3 vlc coinmp gltf collada
+app-office/scribus examples templates
+app-portage/eix sqlite strong-optimization
+app-portage/layman subversion git mercurial sync-plugin-portage
+app-text/acroread minimal
+app-text/evince djvu dvi
+app-text/texlive extra science latex3 xetex pstricks graphics epspdf linguas_de
+app-text/texlive-core xetex
+dev-db/mariadb embedded
+dev-db/mysql embedded
+dev-java/icedtea-bin webstart
+dev-lang/python sqlite tk
+dev-libs/boost python
+dev-libs/geoip city
+#required by x11-terms/terminator-0.96-r1, required by @xfce-set (argument)
+dev-libs/keybinder python
+dev-libs/leveldb -snappy
+dev-libs/libdbusmenu gtk3
+dev-libs/libgusb vala
+dev-libs/libpcre pcre16
+dev-libs/nss utils
+dev-libs/soprano -virtuoso
+#required by sys-power/suspend
+#dev-libs/libgcrypt static-libs
+#required by sys-power/suspend
+#dev-libs/lzo static-libs
+#required by sys-power/suspend
+#dev-libs/libgpg-error static-libs
+#phonon fix, to prevent qt-phonon
+dev-libs/xmlrpc-c abyss
+dev-python/pillow tk
+dev-python/PyQt4 kde
+dev-qt/qtgui mng gtkstyle
+dev-qt/qtsql mysql
+dev-util/ltrace unwind
+dev-util/nvidia-cuda-sdk examples
+dev-vcs/git gtk tk subversion
+dev-vcs/subversion perl -dso
+games-util/steam-client-meta flash steamfonts streaming trayicon
+games-util/steam-games-meta s3tc
+gnome-base/gvfs archive fuse gphoto2 samba
+gnome-extra/nm-applet modemmanager -bluetooth
+gnome-extra/zenity -webkit
+mail-mta/exim logrotate mbx
+media-gfx/digikam addressbook geolocation gphoto2 video
+media-gfx/gimp curl wmf xpm
+media-gfx/imagemagick corefonts fftw graphviz hdri jbig webp
+media-gfx/inkscape imagemagick visio
+media-gfx/ufraw contrast fits
+media-libs/freetype adobe-cff
+media-libs/gst-plugins-bad -egl
+media-libs/lcms python
+media-libs/mediastreamer video g726 g729 gsm ilbc
+media-libs/mesa xa xorg -opencl osmesa gles1 gles2
+media-libs/mlt melt kdenlive frei0r python
+media-libs/opencv -cuda
+media-plugins/alsa-plugins pulseaudio -ffmpeg -speex
+media-sound/pulseaudio gnome native-headset
+media-video/dvdrip subtitles
+media-video/libav network
+media-video/mplayer custom-cflags bidi
+media-video/vlc httpd lua stream vlm wma-fixed -nsplugin
+net-analyzer/nmap ncat ndiff nping
+net-analyzer/rrdtool graph
+net-analyzer/wireshark gcrypt geoip
+net-dns/avahi mdnsresponder-compat utils gtk3 autoipd
+net-dns/dnsmasq script
+net-firewall/iptables netlink
+net-fs/cifs-utils -acl
+net-fs/nfs-utils nfsv41
+net-fs/samba client
+net-irc/irssi socks5
+net-libs/gtk-vnc python gtk3
+net-libs/libsrtp aesicm
+net-libs/opal h224 h281 h323 sip wav dtmf celt ilbc ivr sipim srtp vxml
+net-libs/ortp srtp
+net-libs/ptlib stun video wav dtmf remote socks shmvideo qos ftp http jabber vxml tts xmlrpc telnet xmpp
+net-libs/rb_libtorrent python
+net-libs/webkit-gtk opengl
+net-libs/xrootd kerberos fuse
+net-libs/zeromq pgm
+net-misc/dhcpcd -zeroconf
+net-misc/iputils arping clockdiff idn tracepath
+net-misc/networkmanager -avahi -zeroconf -nss gnutls modemmanager
+net-misc/ntp -zeroconf
+net-misc/nx rdesktop vnc
+net-misc/nxserver-freenx nxclient rdesktop vnc
+net-misc/openvpn iproute2
+net-misc/spice-gtk -gstreamer python gtk3 usbredir
+net-misc/tightvnc server
+net-misc/vpnc  hybrid-auth
+net-misc/wget socks5
+net-p2p/bitcoind -upnp
+net-print/cups samba slp -usb
+net-print/gutenprint gimp foomaticdb
+net-print/hplip hpijs scanner snmp
+net-proxy/tsocks tordns
+net-voip/ekiga h323 -kde -kontact gconf -gstreamer gnome
+net-voip/linphone video gsm-nonstandard
+net-wireless/blueman thunar network
+net-wireless/bluez obex
+net-wireless/lorcon python
+net-wireless/wavemon caps
+net-wireless/wpa_supplicant eap-sim ap p2p wps
+sci-geosciences/gpsd python
+sci-visualization/gnuplot latex wxwidgets
+#sys-apps/file python
+sys-apps/hwloc -opencl
+sys-apps/openrc -oldnet -netifrc
+sys-apps/pciutils network-cron
+sys-apps/portage git subversion
+sys-apps/usbutils network-cron
+sys-apps/util-linux -slang
+sys-block/parted device-mapper
+sys-block/gparted btrfs dmraid fat mdadm ntfs reiser4 reiserfs xfs
+#sys-cluster/openmpi mpi-threads
+sys-devel/llvm gold clang
+sys-fs/cryptsetup reencrypt
+sys-fs/ntfs3g suid ntfsprogs xattr
+sys-fs/ntfsprogs fuse
+sys-kernel/gentoo-sources experimental
+sys-libs/glibc nscd
+=sys-libs/libunwind-1.1:7 -lzma
+sys-libs/ntdb python
+
+# required by net-fs/samba-3.6.16
+>=sys-libs/talloc-2.0.8 python
+>=sys-libs/tdb-1.3.0-r1 python
+
+sys-libs/tevent python
+sys-libs/zlib minizip
+sys-power/pm-utils ntp
+
+sys-process/lsof rpc
+
+virtual/mysql embedded
+#www-client/chromium aura
+www-client/firefox -system-sqlite system-cairo system-icu system-jpeg gtk3
+www-plugins/adobe-flash 32bit
+www-plugins/google-talkplugin system-libCg
+x11-apps/mesa-progs egl
+x11-drivers/nvidia-drivers uvm gtk3 gtk2
+#x11-drivers/xf86-video-intel uxa
+x11-libs/libxcb xkb
+x11-libs/libdrm libkms
+x11-libs/motif xft
+#required by x11-terms/guake-0.4.4, required by @xfce-set (argument)
+x11-libs/vte python
+xfce-extra/tumbler odf raw
+virtual/python-imaging tk
+

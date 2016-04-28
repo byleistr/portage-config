@@ -1,0 +1,200 @@
+=dev-util/gdbus-codegen-2.40.2 ~amd64
+=app-text/libebook-0.1.1 ~amd64
+
+media-libs/libvisio ~amd64
+app-text/libmspub ~amd64
+media-libs/libcdr ~amd64
+net-nds/openldap ~amd64
+
+# required by net-libs/gnutls-3.3.10
+# required by net-print/cups-2.0.0-r2[ssl]
+# required by app-text/ghostscript-gpl-9.15-r1[cups]
+# required by net-print/cups-filters-1.0.61
+=sys-apps/texinfo-5.2 ~amd64
+# required by app-office/libreoffice-4.3.4.1[collada]
+# required by @utils-set
+# required by @selected
+# required by @world (argument)
+=media-libs/opencollada-0_p864-r1 ~amd64
+
+# required by dev-db/mysql++-3.2.1
+# required by @opt-set
+# required by @selected
+# required by @world (argument)
+=virtual/mysql-5.6-r2 ~amd64
+# required by virtual/mysql-5.6-r2
+# required by dev-qt/qtsql-4.8.5[mysql]
+# required by kde-base/katepart-4.12.5
+# required by kde-base/kdelibs-4.12.5-r2
+# required by kde-base/kcachegrind-4.12.5
+# required by @utils-set
+# required by @selected
+# required by @world (argument)
+=dev-db/mysql-5.6.22 ~amd64
+# required by app-crypt/gcr-3.12.2
+# required by app-crypt/seahorse-3.12.2
+# required by @utils-set
+# required by @selected
+# required by @world (argument)
+=dev-libs/libtasn1-4.2 ~amd64
+
+# required by x11-libs/gtk+-3.14.6
+# required by app-crypt/gcr-3.14.0[gtk]
+# required by gnome-base/gnome-keyring-3.14.0
+# required by app-crypt/libsecret-0.18
+# required by app-crypt/seahorse-3.14.0
+# required by @utils-set
+# required by @selected
+# required by @world (argument)
+=x11-themes/adwaita-icon-theme-3.14.1 ~amd64
+# required by app-editors/gedit-3.14.2
+# required by @xfce-set
+# required by @selected
+# required by @world (argument)
+=x11-libs/gtksourceview-3.14.2 ~amd64
+
+=dev-util/gdbus-codegen-2.42.1 ~amd64
+=x11-themes/gnome-themes-standard-3.14.2.3 ~amd64
+
+=dev-libs/librevenge-0.0.2 ~amd64
+=dev-libs/libixion-0.7.0 ~amd64
+=app-text/libwps-0.3.0 ~amd64
+=dev-libs/liborcus-0.7.0 ~amd64
+
+# required by app-office/libreoffice-4.3.5.2
+~media-libs/libfreehand-0.1.0 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+~app-text/libwpd-0.10.0 ~amd64
+
+~x11-libs/gtksourceview-3.14.3 ~amd64
+
+~perl-core/Digest-SHA-5.880.0
+
+~x11-libs/xtrans-1.3.5 ~amd64
+
+
+# required by app-office/libreoffice-4.4.0.3::gentoo[collada]
+media-libs/opencollada ~amd64
+dev-cpp/libcmis ~amd64
+media-libs/libpagemaker ~amd64
+
+# required by net-p2p/bitcoind-0.10.0::bitcoin
+~dev-libs/libsecp256k1-0.0.0_pre20141212 ~amd64
+
+
+# required by net-misc/modemmanager-1.4.4::gentoo[qmi]
+# required by gnome-extra/nm-applet-1.0.0::gentoo[modemmanager]
+~net-libs/libqmi-1.12.6 ~amd64
+
+# required by dev-cpp/gtkmm-2.24.4-r1::gentoo
+# required by sys-block/gparted-0.20.0::gentoo
+~dev-cpp/cairomm-1.10.0 ~amd64
+
+
+
+
+# required by dev-util/cmake-3.2.1::gentoo[-internal-jsoncpp]
+~dev-libs/jsoncpp-0.10.1 ~amd64
+
+# required by x11-libs/gtk+-3.14.13::gentoo
+=dev-util/gtk-update-icon-cache-3.14.13 ~amd64
+
+# required by net-dialup/ppp-2.4.7-r1::gentoo
+=net-dialup/ppp-scripts-0 ~amd64
+
+
+# required by dev-java/icedtea-bin-7.2.5.5::gentoo[pulseaudio]
+=dev-java/icedtea-sound-1.0.1 ~amd64
+
+# required by x11-libs/gtk+-3.16.3::gentoo
+~dev-libs/atk-2.16.0 ~amd64
+
+~x11-libs/gtksourceview-3.16.1 ~amd64
+
+#steam
+sys-fs/steam-runtime-udev ~amd64
+dev-libs/libappindicator ~amd64
+dev-libs/libindicator ~amd64
+dev-libs/libdbusmenu ~amd64
+
+
+# required by net-p2p/bitcoind-0.11.0::bitcoin
+~dev-libs/libsecp256k1-0.0.0_pre20150423 ~amd64
+
+# required by net-misc/networkmanager-1.0.2-r1::gentoo
+~dev-libs/libgudev-230 ~amd64
+
+# required by app-office/libreoffice-4.4.4.3::gentoo
+~dev-util/mdds-0.12.1 ~amd64
+
+# required by app-text/texlive-2015::gentoo[X]
+~app-text/xdvik-22.87 ~amd64
+# required by app-text/texlive-2015::gentoo[extra]
+~app-text/teckit-2.5.3 ~amd64
+# required by app-text/texlive-2015::gentoo[truetype]
+~app-text/ttf2pk2-2.0_p20150521 ~amd64
+# required by app-text/texlive-2015::gentoo[extra]
+dev-libs/kpathsea ~amd64
+
+# required by app-office/libreoffice-5.0.1.2::gentoo
+# required by @utils-set
+# required by @selected
+# required by @world (argument)
+=app-text/libwps-0.4.1 ~amd64
+
+
+# required by media-video/movit-1.1.3::gentoo
+# required by media-libs/mlt-0.9.8::gentoo[opengl]
+# required by media-video/openshot-1.4.3::gentoo
+# required by @media-set
+# required by @selected
+# required by @world (argument)
+=dev-cpp/eigen-3.2.5 ~amd64
+# required by media-libs/mlt-0.9.8::gentoo[opengl]
+# required by media-video/openshot-1.4.3::gentoo
+# required by @media-set
+# required by @selected
+# required by @world (argument)
+=media-video/movit-1.1.3 ~amd64
+
+
+# required by samba (argument)
+sys-libs/talloc ~amd64
+sys-libs/ntdb ~amd64
+sys-libs/ldb ~amd64
+sys-libs/tdb ~amd64
+sys-libs/tevent ~amd64
+sys-libs/nss_wrapper ~amd64
+net-libs/socket_wrapper ~amd64
+
+# required by games-util/steam-client-meta-0-r20150828::steam-overlay[-steamruntime]
+# required by games-util/steam-meta-0-r20131107::steam-overlay
+# required by @games-set
+# required by @selected
+# required by @world (argument)
+=sys-libs/libudev-compat-186 ~amd64
+
+# required by media-plugins/gst-plugins-meta-1.6.1::gentoo[vpx]
+# required by @xfce-set
+# required by @selected
+# required by @world (argument)
+=media-plugins/gst-plugins-vpx-1.6.1 ~amd64
+
+
+# required by app-office/libreoffice-5.1.0.3::gentoo
+# required by libreoffice (argument)
+dev-libs/liborcus ~amd64
+
+# required by app-office/libreoffice-5.1.0.3::gentoo
+# required by @utils-set
+# required by @selected
+# required by @world (argument)
+dev-util/mdds ~amd64
+
+# required by dev-cpp/libcmis-0.5.1::gentoo
+# required by app-office/libreoffice-5.1.1.3::gentoo
+~sys-devel/boost-m4-0.4_p20160328 ~amd64
+
+# required by net-p2p/bitcoind-0.12.0::bitcoin
+~dev-libs/libsecp256k1-0.0.0_pre20151118 ~amd64
+~dev-libs/univalue-1.0.2 ~amd64

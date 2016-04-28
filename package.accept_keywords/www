@@ -1,0 +1,9 @@
+www-client/google-chrome ~amd64
+www-client/google-chrome-beta ~amd64
+www-client/chromium ~amd64
+www-client/firefox ~amd64
+www-client/firefox-bin ~amd64
+www-plugins/adobe-flash ~amd64
+www-plugins/chrome-binary-plugins:beta ~amd64
+www-plugins/google-talkplugin ~amd64
+www-plugins/moonlight ~amd64
